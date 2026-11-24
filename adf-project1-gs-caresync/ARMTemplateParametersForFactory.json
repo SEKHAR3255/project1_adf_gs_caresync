@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-project1-gs-caresync"
+		},
+		"LS_PostgreSql_password": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1123-120544-jcst890b"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://project1gsadlscaresync.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://project-gs-caresync-keyv.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "project1-gs-caresync-sqldbserver.database.windows.net"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "project-gs-caresync-sqldb"
+		},
+		"LS_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "Gunasekhar"
+		},
+		"LS_PostgreSql_properties_typeProperties_server": {
+			"value": "ep-rough-waterfall-azz2jvyk-pooler.c-3.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_PostgreSql_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		}
+	}
+}
