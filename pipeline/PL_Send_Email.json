@@ -154,7 +154,7 @@
 				}
 			},
 			{
-				"name": "Web1",
+				"name": "Send Email",
 				"type": "WebActivity",
 				"dependsOn": [
 					{
