@@ -775,7 +775,7 @@
 							},
 							"cases": [
 								{
-									"value": "Neon_postgres",
+									"value": "neon_postgres",
 									"activities": [
 										{
 											"name": "Source to landing Ingestion_copy1",
