@@ -1,0 +1,12 @@
+{
+	"name": "adf-project1-gs-caresync",
+	"properties": {
+		"globalParameters": {
+			"email_receipient": {
+				"type": "string",
+				"value": "gunasekhar2804@gmail.com"
+			}
+		}
+	},
+	"location": "centralindia"
+}
