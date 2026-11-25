@@ -112,7 +112,7 @@
 				}
 			},
 			{
-				"name": "Prepare Logic apps body ",
+				"name": "Prepare Logic apps body",
 				"type": "SetVariable",
 				"dependsOn": [
 					{
