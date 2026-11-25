@@ -136,7 +136,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"notebookPath": {
-									"value": "/Workspace/caresync_repo/caresync-adb-repo/Gold/@{item().gold_table_name}\n\n",
+									"value": "@concat(\n    '/Workspace/caresync_repo/caresync-adb-repo/Gold/NB_',\n    item().gold_table_name\n)\n\n",
 									"type": "Expression"
 								}
 							},
@@ -179,6 +179,23 @@
 									}
 								],
 								"scriptBlockExecutionTimeout": "02:00:00"
+							}
+						},
+						{
+							"name": "Update Pipeline is Failed",
+							"type": "Fail",
+							"dependsOn": [
+								{
+									"activity": "Silver to Gold",
+									"dependencyConditions": [
+										"Failed"
+									]
+								}
+							],
+							"userProperties": [],
+							"typeProperties": {
+								"message": "Inner Pipeline failed",
+								"errorCode": "500"
 							}
 						}
 					]
