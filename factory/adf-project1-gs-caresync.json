@@ -9,6 +9,10 @@
 			"env": {
 				"type": "string",
 				"value": "DEV"
+			},
+			"Logic_Apps_url": {
+				"type": "string",
+				"value": "https://prod-04.centralindia.logic.azure.com:443/workflows/fb72b212ea374e90a901158e1b405e55/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=fuytIFmxV57YtAR40W-C2WFQmwabjUWee734ZYsPzmw"
 			}
 		}
 	},
