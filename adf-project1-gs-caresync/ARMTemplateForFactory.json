@@ -193,7 +193,7 @@
 									"userProperties": [],
 									"typeProperties": {
 										"notebookPath": {
-											"value": "/caresync_repo/caresync-adb-repo/Gold/@{item().gold_table_name}",
+											"value": "/Workspace/caresync_repo/caresync-adb-repo/Gold/@{item().gold_table_name}\n\n",
 											"type": "Expression"
 										}
 									},
